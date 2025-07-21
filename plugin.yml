@@ -1,0 +1,20 @@
+name: Homes
+version: 1.0
+main: tokarotik.homes.Main
+
+commands:
+  sethome:
+    description: Set home. /sethome or /sethome <name>
+    usage: /<command> <name/empty>
+
+  home:
+    description: Teleportation to home. /home or /home <name>
+    usage: /<command> <name/empty>
+
+  delhome:
+    description: Delete home. /delhome or /delhome <name>
+    usage: /<command> <name/empty>
+
+  homes:
+    description: Show all homes. /homes
+    usage: /<command>

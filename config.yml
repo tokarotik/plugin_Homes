@@ -1,0 +1,11 @@
+# TELEPORTS TO ANOTHER DIMENSION
+# If be true, players can to teleport to their homes from another dimensions.
+# e.g. nether -> home overworld
+# If be false, players can teleport to their home only in dimension where homes were defined.
+teleports-another-dimension: true
+
+# HOMES LIMITS
+# If be 0, players can't to setting homes and use.
+# if be 1, players can set and use only one home.
+# if be 2 and more, players can use many homes
+limits-homes: 2
